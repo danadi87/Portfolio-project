@@ -1,3 +1,16 @@
 body {
-  background-color: red;
+  background: fuchsia;
+}
+h1,
+h3 {
+  color: fuchsia;
+}
+.hero {
+  margin-top: 70px;
+  text-align: center;
+  background: #f6e5e5;
+}
+.order {
+  color: fuchsia;
+  text-align: center;
 }
