@@ -6,18 +6,22 @@
   color: darkviolet;
 }
 .small-photos {
-  display: block;
   width: 50%;
   height: auto;
   margin: 10px;
   vertical-align: middle;
+  border: 2px;
+  border-color: darkviolet;
+  border-style: double;
 }
 .large-photos {
-  display: block;
-  width: 100%;
+  width: 105%;
   height: auto;
   margin: 12px;
   vertical-align: middle;
+  border: 2px;
+  border-color: darkviolet;
+  border-style: double;
 }
 .nav-link {
   color: darkviolet;
@@ -43,18 +47,21 @@
 h1 {
   font-size: 50px;
   text-shadow: 2px 4px 4px rgb(250, 250, 7);
+  margin-top: 100px;
 }
 h3 {
   font-size: 35px;
   text-shadow: 2px 4px 4px rgb(250, 250, 7);
+  margin-bottom: 60px;
 }
 li {
   list-style-type: none;
   margin-top: 10px;
   color: white;
   background-color: darkviolet;
-  padding: 7px 10px 4px 10px;
+  padding: 4px 4px 4px 4px;
   font-size: 25px;
+  margin-bottom: 60px;
 }
 ul {
   margin-top: 20px;
@@ -113,4 +120,82 @@ ul {
 }
 p {
   text-align: center;
+}
+.about-paragraph {
+  font-size: 20px;
+}
+.about-photo {
+  border-style: solid;
+  border-color: darkviolet;
+  border-width: 2px;
+}
+@media (max-width: 400px) {
+  .btn {
+    color: darkviolet;
+    background-color: white;
+    padding: 3px 5px 0.1px 7px;
+    font-size: 18px;
+    border: 2px solid;
+    border-color: darkviolet;
+    text-shadow: 2px 4px 4px rgb(250, 250, 7);
+  }
+  .btn:hover {
+    color: white;
+    background-color: darkviolet;
+    padding: 7px 10px 4px 10px;
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 30px;
+    text-shadow: 1px 2px 2px rgb(250, 250, 7);
+  }
+  h3 {
+    font-size: 20px;
+    text-shadow: 1px 2px 2px rgb(250, 250, 7);
+    margin-bottom: 30px;
+  }
+  .large-photos {
+    width: 90%;
+    height: auto;
+    margin: 12px;
+    vertical-align: middle;
+    margin-bottom: 48px;
+  }
+  .small-photos {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    vertical-align: middle;
+  }
+  li {
+    list-style-type: none;
+    margin-top: 10px;
+    color: white;
+    background-color: darkviolet;
+    padding: 4px 4px 4px 4px;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .om-zapada {
+    margin-bottom: 15px;
+    width: 65%;
+    padding-top: 0px!;
+    margin-top: 0px !important;
+  }
+  .piersicute {
+    width: 70%;
+  }
+}
+.om-zapada {
+  margin-top: 25px;
+}
+.feedback {
+  color: darkviolet;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
