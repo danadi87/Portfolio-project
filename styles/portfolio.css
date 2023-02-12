@@ -203,7 +203,9 @@ p {
 .feedback {
   color: darkviolet;
   margin-bottom: 0px;
+  margin-top: 30px;
   font-weight: bold;
+  font-size: 30px;
 }
 footer.main-page {
   text-align: center;
